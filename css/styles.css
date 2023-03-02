@@ -34,7 +34,7 @@ h1.card-title{
 }
 p.copyrightOther{
   margin: 0;
-  color: white;
+  color: #ffffff;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
 }
@@ -43,10 +43,6 @@ div.myRow{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-div.inside{
-  background-color: #000000;
-  padding: 30px 0;
 }
 button.portfolioButton{
   padding: 10px 20px;
@@ -69,10 +65,4 @@ button.portfolioButton:hover{
 footer.newColor{
   background-color: #000000;
   height: 56px;
-}
-@media (orientation: landscape) {
-  div.inside{
-    background-color: #2f3236;
-    padding: 0;
-  }
 }
